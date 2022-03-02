@@ -1,4 +1,4 @@
-class Alarm_clock:
+class AlarmClock:
     def __init__(self):
         self.time = "1pm"
         self.alarm_on_off = True
