@@ -1,7 +1,7 @@
 class Alarm_clock:
     def __init__(self):
         self.time = "1pm"
-        self.alarm_on = True
+        self.alarm_on_off = True
         self.alarm_time = "2pm"
 
 
@@ -9,8 +9,11 @@ class Alarm_clock:
         self.time = input("Enter current time: ")
         print("The current time is: ", self.time)
 
-    def set_alarm_on_or_off(self):
-        self.alarm_on = True
+    def set_alarm_on(self):
+        self.alarm_on_off = True
+
+    def set_alarm_off(self):
+        self.alarm_on_off = False
 
     def set_alarm_time(self):
         self.alarm_time = input("Enter alarm time: ")
