@@ -19,7 +19,7 @@ print(matts_customer.name)
 
 matts_product_one = Product("Banana", 200, "Fruit")
 
-matts_customer.add_product = Product
+matts_customer.add_product == Product
 
 matts_product_Two = Product("Cake", 900, "Dessert")
 
